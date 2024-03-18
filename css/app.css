@@ -103,10 +103,20 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+.bg {
+    background-image: url('/mypic.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
 .home {
     display: flex;
     align-items: center;
     padding: 0 9%;
+    background-color: #081b29dc;
+
 }
 
 .home-content {
@@ -226,6 +236,7 @@ section {
     border-radius: 50%;
     color: var(--main-color);
     overflow: hidden;
+    z-index: 1;
 
 }
 
