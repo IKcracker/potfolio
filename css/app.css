@@ -225,5 +225,29 @@ section {
     border: 2px solid var(--main-color);
     border-radius: 50%;
     color: var(--main-color);
+    overflow: hidden;
 
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.home-sci a:hover::before {
+    width: 100%;
+    background: #00abf0;
+
+}
+
+.home-sci a:hover {
+    transition: 0.5s step-end;
+    color: var(--bg-color);
 }
