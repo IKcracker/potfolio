@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap5.3/css/bootstrap.css">
     <link rel="stylesheet" href="css/app.css">
     <title>potfolio</title>
     <!-- box-icon -->
@@ -13,20 +14,41 @@
 <body>
 
     <header class="header">
-
-        <a href="#home" class="logo"><span class="deco-logo">M</span>oropane<span class="deco-logo">.</span></a>
-
-        <div class="bx bx-menu" id="menu-icon">
-
+        <div class="logo">
+            <a href="#home" class="logo nav-link"><span class="deco-logo">M</span>oropane<span
+                    class="deco-logo">.</span></a>
         </div>
 
+        <div class="sideNav">
+            <i class='bx bx-menu sideIcon'></i>
+        </div>
+
+
+        <nav class="sideBar">
+            <div class="close"><i class='bx bx-x'></i></div>
+            <a href="#home" class="active nav-link">Home</a>
+            <a href="#about " class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">contact</a>
+            <div class="cv">
+                <a href="" id="cv" class="nav-link btn-cv">Download CV</a>
+            </div>
+        </nav>
+
+
+
+
+
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">contact</a>
-            <a href="2024 CV.pdf" class="btn-cv">Download CV</a>
+            <a href="#home" class="active nav-link">Home</a>
+            <a href="#about " class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">contact</a>
+            <div class="cv">
+                <a href="2024 CV.pdf" id="cv" class="nav-link btn-cv">Download CV</a>
+            </div>
         </nav>
 
 
@@ -53,10 +75,10 @@
                 </div>
 
                 <div class="home-sci">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-github'></i></a>
-                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="nav-link"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="nav-link"><i class='bx bxl-github'></i></a>
+                    <a href="#" class="nav-link"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="nav-link"><i class='bx bxl-instagram'></i></a>
                 </div>
             </div>
         </section>
@@ -245,77 +267,11 @@
     </section>
 
     <!-- design Contact section  -->
-    <section class="contact" id="contact">
-        <div class="contact-row">
-            <h2 class="heading">Get In <span>Touch</span></h2>
 
-            <p class="contact-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quia, sequi placeat
-                dolore sed,
-                repellendus tempore ex commodi veniam soluta provident dolorem harum inventore vitae a error officiis
-                distinctio minus.</p>
-
-            <div class="contact-col">
-
-                <div class="contact-content">
-                    <h3>Contact Information</h3>
-                    <p>
-                        dolore ullam. Non, id, natus officia assumenda fugiat vel autem labore totam ut molestiae porro
-
-                    </p>
-                    <div class="contact-icons">
-                        <div class="phone">
-                            <i class='bx bxs-phone'>
-                            </i>
-                            <h3>(+27)76 869 9754</h3>
-                        </div>
-                        <div class="email">
-                            <i class='bx bxs-envelope'></i>
-                            <h3>kimoropana823@gmail.com</h3>
-                        </div>
-                        <div class="location"><i class='bx bx-map'></i>
-                            <h3>South Africa, Pretoria</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-forn">
-                    <form action="">
-                        <div class="personal">
-                            <div class="name">
-                                <label for="name">Your Name</label>
-                                <br>
-                                <input type="text" name="name" id="name">
-
-                            </div>
-                            <div class="email">
-                                <label for="email">Your Email</label>
-                                <br>
-                                <input type="email" name="email" id="email">
-                            </div>
-
-                        </div>
-
-                        <div class="sub">
-                            <label for="subject">Your Subject</label>
-                            <br>
-                            <input type="text" name="subject" id="subject">
-                        </div>
-                        <label for="message">Message</label>
-
-                        <input type="text" name="message" id="">
-                        <br>
-                        <div class="btn-box">
-
-                            <button class="btn">Submit</button>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-
-
-        </div>
-    </section>
-
+    <script src="bootstrap5.3/js/bootstrap.js">
+    </script>
+    <script src="js/app.js">
+    </script>
 </body>
 
 </html>

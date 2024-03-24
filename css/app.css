@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif, monospace;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-}
+* {}
 
 :root {
     --bg-color: #081b29;
@@ -26,6 +17,15 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif, monospace;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+
 }
 
 .header {
@@ -58,6 +58,32 @@ body {
 
     transition: .3s;
 
+}
+
+.sideNav i {
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.sideBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    background: var(--bg-color);
+    height: 100vh;
+    padding: 50px 0px 0px 20px;
+    display: none;
+}
+
+.sideBar .close i {
+    font-size: 5rem;
+}
+
+.sideBar a {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    display: flexbox;
 }
 
 .btn-cv {
@@ -548,135 +574,81 @@ span {
 .contact {
     min-height: auto;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+    flex-direction: column;
     flex-wrap: wrap;
 
+
 }
+
+.contact-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact .contact-container>h2 {
+    margin: 0;
+
+}
+
+.contact .contact-container .contact-p {
+    text-align: center;
+    margin-bottom: 5rem;
+    width: 60%;
+
+
+}
+
+
 
 .contact .contact-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5rem;
-    align-items: center;
-    padding: 2.5rem;
-    border-radius: 25px;
+    top: 300px;
+    left: 0;
+    position: absolute;
     background: var(--second-bg-color);
-    min-height: 800px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+
 }
 
-.contact .contact-row .contact-p {
-    font-size: 1.5rem;
-    width: 70%;
-
-    text-align: center;
+.contact-row .contact-nav {
+    display: flex;
+    width: 100%;
 }
 
 .contact-row .contact-col {
+
+    position: absolute;
+    width: 80%;
+    background: var(--bg-color);
     border-radius: 25px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 5rem;
-    padding: 1.2rem;
-    background: var(--bg-color);
-    height: 80%;
-    flex-wrap: wrap;
-    gap: 5rem;
-    width: 100%;
-    min-height: 400px;
-    justify-content: center;
-    align-items: center;
-
-
-
+    padding: 2rem;
+    display: flexe;
+    gap: 4rem;
+    margin-bottom: 8rem;
+    top: -140px;
+    left: 10%;
 }
 
-
-
-.contact-col .contact-content {
-    background: var(--main-color);
-    border-radius: 15px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-
-
+@media (max-width:975px) {
+    .cv {
+        display: none;
+    }
 }
 
-.contact-content>h3 {
-    font-size: 2rem;
-    text-align: center;
-
+@media (max-width:743px) {
+    .navbar {
+        display: none;
+    }
 }
 
-.contact-content p {
-    font-style: 1.4rem;
-    width: 300px;
-    text-align: center;
-}
+@media (min-width:743px) {
 
-.contact-content .contact-icons {
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    height: 200px;
-}
-
-.contact-col .contact-forn {
-    width: 60%;
-}
-
-.contact-forn form {
-    display: flexbox;
-    width: 100%;
-    height: 100%;
-    color: var(--main-color);
-}
-
-form .personal {
-
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-
-}
-
-form .personal div {
-    width: 50%;
-}
-
-form input,
-label {
-    width: 98%;
-}
-
-.contact form input {
-
-    line-height: 3rem;
-    background: var(--bg-color);
-    color: var(--text-color);
-    border-bottom: .2rem solid var(--main-color);
-    margin-bottom: 3rem;
-}
-
-.contact form label {
-    font-size: 2rem;
-}
-
-.contact-content .contact-icons div {
-
-    display: flex;
-
-}
-
-.contact-content .contact-icons div i {
-    font-size: 2rem;
-    margin-right: 1.2rem;
+    .sideNav {
+        display: none;
+    }
 }
