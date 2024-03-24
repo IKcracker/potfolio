@@ -660,3 +660,11 @@ span {
         display: none;
     }
 }
+
+@media (max-width:500px) {
+    .home-sci {
+
+        bottom: 1.5rem;
+
+    }
+}
