@@ -200,6 +200,13 @@ section {
 
 }
 
+
+
+/* .contact .btn:hover {
+    background: var(--second-bg-color);
+    color: var(--main-color);
+} */
+
 .btn {
     position: relative;
     display: inline-flex;
@@ -252,6 +259,19 @@ section {
 
 .btn:hover::before {
     width: 100%;
+}
+
+.contact .btn-box .btn {
+    background: #00abf0;
+    color: var(--bg-color);
+    border-radius: 15px;
+    border: 0.2rem solid var(--bg-color);
+
+}
+
+.contact .btn-box .btn:hover {
+    background: var(--bg-color);
+    color: var(--main-color);
 }
 
 .home-sci {
@@ -581,66 +601,17 @@ span {
 }
 
 .contact {
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-
-}
-
-.contact-container {
-    position: relative;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-.contact .contact-container>h2 {
-    margin: 0;
-
-}
-
-.contact .contact-container .contact-p {
-    text-align: center;
-    margin-bottom: 5rem;
+.contact-row {
     width: 60%;
-
-
-}
-
-
-
-.contact .contact-row {
-    top: 300px;
-    left: 0;
-    position: absolute;
-    background: var(--second-bg-color);
-    height: 300px;
-    width: 100%;
-    display: flex;
-
-}
-
-.contact-row .contact-nav {
-    display: flex;
-    width: 100%;
-}
-
-.contact-row .contact-col {
-
-    position: absolute;
-    width: 80%;
-    background: var(--bg-color);
     border-radius: 25px;
-    padding: 2rem;
-    display: flexe;
-    gap: 4rem;
-    margin-bottom: 8rem;
-    top: -140px;
-    left: 10%;
+    background: var(--main-color);
+    padding: 4rem 4rem 10rem 4rem;
+
 }
 
 @media (max-width:975px) {
