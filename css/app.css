@@ -76,8 +76,15 @@ body {
     display: none;
 }
 
+.sideBar .btn-cv {
+    font-size: 1.5rem;
+    display: flexbox;
+    width: 140px;
+}
+
 .sideBar .close i {
     font-size: 5rem;
+    cursor: pointer;
 }
 
 .sideBar a {
