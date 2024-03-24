@@ -673,3 +673,14 @@ span {
 
     }
 }
+
+@media (max-width:400px) {
+
+    .skills-box div {
+
+        width: 130px;
+
+
+
+    }
+}
