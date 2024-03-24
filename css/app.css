@@ -70,7 +70,8 @@ body {
     top: 0;
     right: 0;
     width: 300px;
-    background: var(--bg-color);
+
+    backdrop-filter: blur(30px);
     height: 100vh;
     padding: 50px 0px 0px 20px;
     display: none;
@@ -645,12 +646,14 @@ span {
 @media (max-width:975px) {
     .cv {
         display: none;
+        transition: .8s;
     }
 }
 
 @media (max-width:743px) {
     .navbar {
         display: none;
+        transition: .8s;
     }
 }
 
@@ -658,6 +661,7 @@ span {
 
     .sideNav {
         display: none;
+        transition: .8s;
     }
 }
 
@@ -665,6 +669,7 @@ span {
     .home-sci {
 
         bottom: 1.5rem;
+        transition: .8s;
 
     }
 }
