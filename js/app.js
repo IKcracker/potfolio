@@ -6,7 +6,7 @@ let sidenav = document.querySelector('.sideIcon');
 let sideMenu = document.querySelector('.sideBar');
 let closeSide = document.querySelector('.close');
 let links = document.querySelectorAll('.sideBar a');
-console.dir(sideMenu);
+
 
 
 sidenav.addEventListener("click", () => {
@@ -28,19 +28,19 @@ for (let link of links) {
 
 let about = document.querySelector('.aboutBtn');
 let aboutP = document.querySelector('.about-content p');
-console.dir(about);
 about.addEventListener('click', () => {
 
 
     if (about.classList.toggle('aboutBtn')) {
+        aboutP.innerText = '';
         aboutP.innerText = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, in quaerat! Dicta recusandae
-    doloremque
-    dolores deleniti est, dignissimos, itaque doloribus tempora hic libero laboriosam nesciunt culpa
-    corrupti sint dolore sequi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, in quaerat! Dicta recusandae
-    doloremque`;
-
+        doloremque dolores deleniti est, dignissimos, itaque doloribus tempora hic libero laboriosam nesciunt culpa
+        corrupti sint dolore sequi.`;
+        about.style.textAline = 'centre';
         about.innerText = 'read more';
-        console.log(about.classList.toggle('aboutBtn'));
+        let status2 = about.classList.toggle('aboutBtn');
+
+
 
     }
     else {
@@ -55,7 +55,8 @@ about.addEventListener('click', () => {
     dolores deleniti est, dignissimos, itaque doloribus tempora hic libero laboriosam nesciunt culpa
     corrupti sint dolore sequi.`;
         about.innerText = 'read less'
-        console.log(about.classList.toggle('aboutBtn'));
+        let status = about.classList.toggle('aboutBtn');
+
 
     }
 
