@@ -703,7 +703,25 @@ textarea{
     margin-bottom: 2.5rem;
 
 }
-
-
     
+}
+@media (min-width:20px) {
+
+    .skills-box div {
+
+        width: 130px;
+
+
+
+    }
+       .btn-box {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 2.5rem;
+
+}
 }
