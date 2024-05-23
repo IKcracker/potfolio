@@ -686,10 +686,7 @@ textarea{
     margin-bottom: 2.5rem;
 
 }
-     .btn-box .btn{
-   
-   width: 10rem;
- }
+    
 }
 @media (max-width:400px) {
 
@@ -700,7 +697,7 @@ textarea{
 
 
     }
-       .btn-box {
+      .content .btn-box {
     
     display: flex;
     justify-content: space-between;
@@ -710,6 +707,10 @@ textarea{
     margin-bottom: 2.5rem;
 
 }
+.content .btn-box .btn{
+   
+    width: 10rem;
+  }
 
 }
 
