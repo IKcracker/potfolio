@@ -278,7 +278,7 @@ section {
 }
 
 .home-sci {
-    position: absolute;
+     position: relative;
     bottom: 4rem;
     width: 200px;
     display: flex;
