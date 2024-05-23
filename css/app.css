@@ -676,28 +676,7 @@ textarea{
         bottom: 1rem;
         transition: .8s;
 }
-       .btn-box {
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 5rem;
-    margin-bottom: 2.5rem;
-
-}
-    
-}
-@media (max-width:400px) {
-
-    .skills-box div {
-
-        width: 130px;
-
-
-
-    }
-      .content .btn-box {
+         .content .btn-box {
     
     display: flex;
     justify-content: space-between;
@@ -711,6 +690,18 @@ textarea{
    
     width: 10rem;
   }
+    
+}
+@media (max-width:400px) {
+
+    .skills-box div {
+
+        width: 130px;
+
+
+
+    }
+ 
 
 }
 
