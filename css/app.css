@@ -662,14 +662,14 @@ textarea{
 @media (max-width:500px) {
      .home-sci {
 
-        bottom: 1.5rem;
+        bottom: .4rem;
         transition: .8s;
 }
 
 @media (max-width:400px) {
      .home-sci {
 
-        bottom: 1.5rem;
+        bottom: .2rem;
         transition: .8s;
 }
     .skills-box div {
