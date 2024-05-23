@@ -163,7 +163,7 @@ section {
 .home-content {
     max-width: 60rem;
     height: 100%;
-    padding-top: 10px;
+    
 }
 
 .home-content h1 {
@@ -660,6 +660,9 @@ textarea{
 }
 
 @media (max-width:500px) {
+    .home-content{
+        padding-top: 25px;
+    }
      .home-sci {
 
         bottom: 1rem;
@@ -667,6 +670,9 @@ textarea{
 }
 
 @media (max-width:400px) {
+    .home-content{
+        padding-top: 25px;
+    }
      .home-sci {
 
         bottom: 1px;
