@@ -711,14 +711,14 @@ textarea{
    width: 10rem;
  }
 }
+
 @media (min-width:20px) {
 
     .skills-box div {
 
         width: 130px;
-
     }
-       .contact-row {
+    .contact-row {
     width: 100%;
     border-radius: 25px;
     background: var(--main-color);
