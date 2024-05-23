@@ -668,7 +668,7 @@ textarea{
 }
 
 @media (max-width:500px) {
-    form {
+    .contact-row{
     width: 100%;
    
   
