@@ -689,12 +689,13 @@ textarea{
         transition: .8s;
 }
 
+
    .btn-box {
     
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 22rem;
     height: 5rem;
     margin-bottom: 2.5rem;
 
