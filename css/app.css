@@ -662,19 +662,17 @@ textarea{
 @media (max-width:500px) {
      .home-sci {
 
-        bottom: .4rem;
+        bottom: 1rem;
         transition: .8s;
 }
 
 @media (max-width:400px) {
      .home-sci {
 
-        bottom: .2rem;
+        bottom: 1px;
         transition: .8s;
 }
-    .skills-box div {
 
-        width: 130px;
 
 
 
