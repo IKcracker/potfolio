@@ -278,7 +278,7 @@ section {
 }
 
 .home-sci {
-     position: relative;
+     position: absolute;
     bottom: 4rem;
     width: 200px;
     display: flex;
@@ -661,10 +661,10 @@ textarea{
 
 @media (max-width:500px) {
     .home-content{
-        padding-top:12rem;
+        padding-top:10rem;
     }
      .home-sci {
-
+        position: relative;
         bottom: 1rem;
         transition: .8s;
 }
@@ -674,7 +674,7 @@ textarea{
         padding-top: 12rem;
     }
      .home-sci {
-
+        position: relative;
         bottom: 1px;
         transition: .8s;
 }
