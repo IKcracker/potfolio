@@ -162,6 +162,8 @@ section {
 
 .home-content {
     max-width: 60rem;
+    height: 100%;
+    padding-top: 10px;
 }
 
 .home-content h1 {
@@ -281,7 +283,7 @@ section {
     width: 200px;
     display: flex;
     justify-content: space-between;
-    
+    margin-bottom: 2rem;
 
 }
 
@@ -649,7 +651,7 @@ span {
 }
 
 @media (max-width:500px) {
-/*     .home-sci {
+    /* .home-sci {
 
         bottom: 1.5rem;
         transition: .8s;
