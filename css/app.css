@@ -688,30 +688,28 @@ textarea{
 }
 }
 @media (max-width:400px) {
-    .home-content{
-        padding-top: 12rem;
-    }
-     .home-sci {
-        position: relative;
-        bottom: 1px;
-        transition: .8s;
-}
 
-.btn-box .btn{
-   
-   width: 10rem;
- }
-   .btn-box {
+    .skills-box div {
+
+        width: 130px;
+
+
+
+    }
+       .btn-box {
     
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 22rem;
+    width: 25rem;
     height: 5rem;
     margin-bottom: 2.5rem;
 
 }
-    
+ .btn-box .btn{
+   
+   width: 10rem;
+ }
 }
 @media (min-width:20px) {
 
