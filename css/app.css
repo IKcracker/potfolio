@@ -711,9 +711,13 @@ textarea{
 
         width: 130px;
 
-
-
     }
+       .contact-row {
+    width: 100%;
+    border-radius: 25px;
+    background: var(--main-color);
+    padding: 4rem 4rem 1rem 4rem;
+}
        .btn-box {
     
     display: flex;
