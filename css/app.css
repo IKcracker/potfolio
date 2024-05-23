@@ -202,7 +202,15 @@ section {
     margin-bottom: 2.5rem;
 
 }
-
+.contwent .btn-box{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 34.5rem;
+    height: 5rem;
+    margin-bottom: 2.5rem;
+}
 
 
 /* .contact .btn:hover {
