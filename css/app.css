@@ -660,16 +660,18 @@ textarea{
 }
 
 @media (max-width:500px) {
-    /* .home-sci {
+     .home-sci {
 
         bottom: 1.5rem;
         transition: .8s;
-
-    } */
 }
 
 @media (max-width:400px) {
+     .home-sci {
 
+        bottom: 1.5rem;
+        transition: .8s;
+}
     .skills-box div {
 
         width: 130px;
