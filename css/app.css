@@ -661,7 +661,7 @@ textarea{
 
 @media (max-width:500px) {
     .home-content{
-        padding-top: 25px;
+        padding-top:5rem;
     }
      .home-sci {
 
@@ -671,7 +671,7 @@ textarea{
 
 @media (max-width:400px) {
     .home-content{
-        padding-top: 25px;
+        padding-top: 25rem;
     }
      .home-sci {
 
