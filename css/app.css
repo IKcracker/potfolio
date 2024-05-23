@@ -620,14 +620,23 @@ span {
     width: 80%;
     border-radius: 25px;
     background: var(--main-color);
-    padding: 4rem 4rem 10rem 4rem;
+    padding: 4rem 4rem 1rem 4rem;
 
 }
 
 .content-col .heading {
     width: 80%;
 }
-
+.form-control{
+    height: 3.5rem;
+}
+.form-label{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+textarea{
+    height: 10rem !important;
+}
 @media (max-width:975px) {
     .cv {
         display: none;
