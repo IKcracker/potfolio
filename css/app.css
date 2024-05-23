@@ -668,6 +668,12 @@ textarea{
 }
 
 @media (max-width:500px) {
+    .contact-row {
+    width: 100%;
+    border-radius: 25px;
+    background: var(--main-color);
+    padding: 4rem 4rem 1rem 4rem;
+}
     .home-content{
         padding-top:10rem;
     }
