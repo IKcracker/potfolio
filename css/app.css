@@ -713,11 +713,19 @@ textarea{
 
         width: 130px;
 
-
+        
 
     }
  
-
+    .skills-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem; 
+    align-items: baseline;
+    align-content: flex-start;
+    }
 }
 @media only screen and (min-width: 768px)
 {
