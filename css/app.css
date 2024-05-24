@@ -288,18 +288,7 @@ section {
     color: var(--main-color);
 }
 
-.home-sci {
-    position:fixed;
-    bottom: 4rem;
-    left: 2rem;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-    gap: 4rem;
-    
-}
+
 
 .home-sci a {
     position: relative;
@@ -729,4 +718,18 @@ textarea{
     }
  
 
+}
+@media only screen and (min-width: 768px)
+{
+    .home-sci {
+     position:fixed;
+    bottom: 4rem;
+    left: 0.5rem;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 4rem;
+    }
 }
