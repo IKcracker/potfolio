@@ -161,12 +161,14 @@ section {
 }
 
 .home-content {
+
     max-width: 60rem;
     height: 100%;
     
 }
 
 .home-content h1 {
+    padding-top:2rem;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
